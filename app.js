@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require ('path');
 
 // 파일이 .txt 파일인지 확인하는 함수
-const isTXtFile = (filename) => {
+const isTXtFile = (fileName) => {
   // 경로의 확장자를 반환한다.
   let result = path.extname(fileName).toLowerCase() === '.txt';
   return result; // 문자열이다.
